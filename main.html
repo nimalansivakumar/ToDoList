@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-App</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="heading">📝ToDo</h2>
+        <p>
+            <button onclick="highlight()" class="nav-text" id="highlight-quote">Why ToDo-List?</button>
+        </p>
+    </nav>
+       <section class="main">
+        <section class="input-section">
+            <input class="input-field" id="input" type="text" placeholder="Type something...">
+            <button class="input-button" id="btn"><img class="btn-icon" src="img/point-to.png"></button>
+        </section>
+        <section class="display">
+            <div class="display-field">
+                <h3 class="date" id="date">6-10-2020</h3>
+                <h2 class="quote-text" id="quote">“It does not take much<br> 
+                    strength to do things, but it<br>
+                    requires great strength to<br>
+                    decide on what to do”<br>
+                    (Elbert Hubbard).
+                </h2>
+                <div class="display-result">
+                    <ul class="list-display">
+                        <!--<li class="task-list">
+                            <div class="task-div">
+                                <p class="display-text">Drink Coffee</p>
+                            </div>
+                            <button onclick="" class="btn"><img id="deleteBtn" class="delete" src="img/remove.png"</button>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </section>
+       </section>
+    <footer class="footer">
+        <p class="footer-text">Designed by Nimalan with ❤️</p>
+    </footer>
+</body>
+<script src="app.js">
+</script>
+</html>
